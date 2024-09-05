@@ -3,12 +3,12 @@ import { FaFacebook } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaSquareInstagram } from "react-icons/fa6";
 import Logo from "@/public/Instant3-01.png";
-import ConcCirc from "@/public/Course Website Exploration w_ Mobile Responsive (Community)/Group 42.png";
-import ComingSoon from "@/public/Course Website Exploration w_ Mobile Responsive (Community)/Group 44.png";
-import People from "@/public/Course Website Exploration w_ Mobile Responsive (Community)/Group 46.png";
-import LightOrange from "@/public/Course Website Exploration w_ Mobile Responsive (Community)/Rectangle 24.png";
-import DarkOrange from "@/public/Course Website Exploration w_ Mobile Responsive (Community)/Rectangle 26.png";
-import ForABetterCommunity from "@/public/Course Website Exploration w_ Mobile Responsive (Community)/Track any hashtag(s).png";
+import ConcCirc from "@/public/mobile/Group-42.png";
+import ComingSoon from "@/public/mobile/Group-44.png";
+import People from "@/public/mobile/Group-46.png";
+import LightOrange from "@/public/mobile/Rectangle-24.png";
+import DarkOrange from "@/public/mobile/Rectangle-26.png";
+import ForABetterCommunity from "@/public/mobile/Track-any-hashtags.png";
 import MediumFooter from "@/public/medium_footer.png";
 import Image from "next/image";
 

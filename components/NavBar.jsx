@@ -8,22 +8,33 @@ import { motion } from "framer-motion";
 
 const NavBar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
+  const mobileMenuVariants = {
+    open: {
+      opacity: 1,
+      height: "auto",
+      transition: { duration: 0.3 },
+    },
+    closed: {
+      opacity: 0,
+      height: 0,
+      transition: { duration: 0.3, ease: "easeInOut" },
+    },
+  };
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
     <header className="sticky top-0 backdrop-blur-sm z-50">
-      <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-2">
+      {/* <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-2">
         <p>Reclaim your time.</p>
         <p className="text-white/60 hidden md:block">
           Organise your living space with trusted and reliable professionals
         </p>
-      </div>
+      </div> */}
       <div className="py-2">
         <div className="mx-4 md:mx-12">
           <div className="flex items-center justify-between px-1">
-            <Image src={Logo} alt="Instant Logo" height={70} width={90} />
+            <Image src={Logo} alt="Instant Logo" height={90} />
 
             <button onClick={toggleMobileMenu} className="md:hidden">
               {isMobileMenuOpen ? (
@@ -70,10 +81,12 @@ const NavBar = () => {
         </div>
       </div>
       {isMobileMenuOpen && (
-        <div
-          className={`md:hidden bg-instantGreen-2/30 py-2 ${
-            isMobileMenuOpen ? "block" : "hidden"
-          }`}
+        <motion.div
+          initial="closed"
+          animate="open"
+          exit="closed"
+          variants={mobileMenuVariants}
+          className="md:hidden bg-instantGreen-2/30 py-2 overflow-hidden"
         >
           <nav className="flex flex-col items-center gap-4 text-instantOrange-4/80 tracking-tight">
             <a
@@ -105,8 +118,11 @@ const NavBar = () => {
               Contact
             </a>
           </nav>
-        </div>
+        </motion.div>
       )}
+      <div className="px-4 py-4">
+        <hr className="border-[1px] border-gray-300" />
+      </div>
     </header>
   );
 };

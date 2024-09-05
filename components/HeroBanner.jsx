@@ -6,24 +6,27 @@ import MarketTest from "@/public/Market-Test.png"; // Assuming the market test b
 
 const HeroBanner = () => {
   return (
-    <section className="pt-8 pb-20 md:pt-5 md:px-10 bg-[radial-gradient(ellipse_300%_200%_at_top_left,#FFFFFF,#08a696_350%)] overflow-x-clip">
-      <div className="flex flex-col items-center justify-center md:flex-row md:justify-between">
+    // <section className="pt-8 pb-20 md:pt-5 md:px-10 bg-[radial-gradient(ellipse_300%_200%_at_top_left,#FFFFFF,#08a696_350%)] overflow-x-clip">
+    <section className="overflow-x-clip">
+      <div className="flex flex-col items-start justify-start px-4">
         {/* Left Section with Text */}
-        <div className="mx-4 text-center md:text-left md:mx-auto flex-grow">
-          <div className="flex items-center justify-normal mb-2">
-            <h2 className="text-lg lg:text-3xl text-instantOrange-2 font-semibold whitespace-nowrap">
+
+        <div className="text-left flex-grow">
+          <div className="flex items-center justify-center py-20">
+            <h2 className="text-3xl lg:text-lg text-instantOrange-2 font-semibold whitespace-nowrap">
               The Future
             </h2>
-            <div className="h-[0.2rem] w-[12rem] md:w-[14rem] bg-instantOrange-2 mx-14 md:mx-8"></div>
+            <div className="h-[0.1rem] w-[30%] bg-instantOrange-2 mx-auto"></div>{" "}
+            {/* Orange bar */}
           </div>
-          <h1 className="text-4xl font-bold text-black py-2">
+          <h1 className="text-4xl font-bold text-black py-2 tracking-wide">
             <span className="text-instantGreen-1">Consistent</span> &amp;{" "}
             <span className="text-instantGreen-1">Reliable</span>
           </h1>
-          <h2 className="text-2xl lg:text-3xl text-black py-2 tracking-wider">
+          <h2 className="text-3xl lg:text-3xl text-black py-2 tracking-wider font-semibold">
             The smart choice for Homes
           </h2>
-          <p className="text-gray-700 mt-4">
+          <p className="text-gray-400 mt-4 py-20">
             Organised living space with trusted and reliable professionals
           </p>
           {/* Coming Soon Button */}
