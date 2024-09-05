@@ -5,10 +5,7 @@ import Logo from "@/public/Instant3-01.png";
 
 const OfferBanner = () => {
   return (
-    <div
-      id="offer"
-      className="text-black p-4 bg-[radial-gradient(ellipse_300%_200%_at_top_right,#FFFFFF,#08a696_350%)] overflow-x-clip"
-    >
+    <div id="offer" className="text-black p-4 overflow-x-clip">
       <div className="flex flex-col md:flex-row">
         {/* First Section */}
         <div className="md:w-1/2">
@@ -54,11 +51,11 @@ const OfferBanner = () => {
             </span>
           </div>
         </div>
-        <div className="md:order-1 md:w-1/2">
+        <div className="md:order-1 md:w-1/2 flex justify-center px-0 -ml-16">
           <Image
             src={Mission}
             alt="Mission Image"
-            className="w-full h-auto" // Ensures the image fits the width in mobile view
+            className="w-full h-auto max-w-full" // Ensures the image fits the width in mobile view
           />
         </div>
       </div>

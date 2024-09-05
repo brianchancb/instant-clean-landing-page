@@ -27,7 +27,7 @@ const ProblemBanner = () => {
   return (
     <div
       id="problem"
-      className="text-black md:flex md:justify-between bg-[radial-gradient(ellipse_300%_200%_at_bottom_right,#FFFFFF,#08a696_350%)] overflow-x-clip"
+      className="text-black md:flex md:justify-between overflow-x-clip"
     >
       <div className="md:flex md:flex-col md:justify-center">
         <div className="flex items-center justify-normal mb-2">

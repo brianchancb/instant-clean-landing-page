@@ -22,10 +22,7 @@ const YouGetBanner = () => {
   ];
 
   return (
-    <div
-      id="solution"
-      className="p-4 pt-6 bg-[radial-gradient(ellipse_300%_200%_at_bottom_right,#FFFFFF,#08a696_350%)] overflow-x-clip"
-    >
+    <div id="solution" className="p-4 pt-6  overflow-x-clip">
       <div className="text-5xl md:text-6xl font-bold mb-4 text-black">
         What will you <span className="text-instantGreen-2">Get</span> ?
       </div>

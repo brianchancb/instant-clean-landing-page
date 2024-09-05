@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <footer
       id="contact"
-      className="pt-8 pb-20 md:pt-5 md:px-10 bg-[radial-gradient(ellipse_300%_200%_at_top_right,#FFFFFF,#08a696_350%)] overflow-x-clip text-black"
+      className="pt-8 pb-20 md:pt-5 overflow-x-clip text-black"
     >
       {/* InstantGreen Background Section */}
       <div className="hidden  md:flex md:justify-center">
