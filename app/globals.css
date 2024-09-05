@@ -34,3 +34,13 @@ body {
     height: 2.5rem;
   }
 }
+
+.translate-x-small {
+  transform: translateX(6vw);
+}
+
+@media (min-width: 768px) {
+  .translate-x-small {
+    transform: translateX(0);
+  }
+}

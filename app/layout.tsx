@@ -29,8 +29,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={twMerge(poppins.className, "antialiased bg-white")}>
-        <div className="max-w-screen-xl mx-auto px-4">
+      <body className={twMerge(poppins.className, "antialiased bg-[#f7f7f7]")}>
+        <div className="">
           {" "}
           {/* Add a container */}
           {children}

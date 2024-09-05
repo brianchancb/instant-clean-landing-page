@@ -31,9 +31,9 @@ const NavBar = () => {
           Organise your living space with trusted and reliable professionals
         </p>
       </div> */}
-      <div className="py-2">
-        <div className="mx-4 md:mx-12">
-          <div className="flex items-center justify-between px-1">
+      <div className="py-2 md:py-0">
+        <div className="mx-4 md:mx-0">
+          <div className="flex items-center justify-between px-1 md:px-2">
             <Image src={Logo} alt="Instant Logo" height={90} />
 
             <button onClick={toggleMobileMenu} className="md:hidden">
@@ -43,10 +43,10 @@ const NavBar = () => {
                 <FiAlignJustify className="text-instantGreen-2" size={40} />
               )}
             </button>
-            <nav className="hidden md:flex gap-4 text-black/80 items-center tracking-tight">
+            <nav className="hidden md:flex gap-4 text-instantGreen-2/80 items-center tracking-tight">
               <motion.a
                 href="#problem"
-                className="px-4 py-2 font-semibold hover:text-instantGreen-1/80 hover:underline transition-all duration-300"
+                className="px-4 py-2 tracking-widest font-semibold hover:text-instantGreen-1/80 hover:underline transition-all duration-300"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -54,7 +54,7 @@ const NavBar = () => {
               </motion.a>
               <motion.a
                 href="#offer"
-                className="px-4 py-2 font-semibold hover:text-instantGreen-1/80 hover:underline transition-all duration-300"
+                className="px-4 py-2 tracking-widest font-semibold hover:text-instantGreen-1/80 hover:underline transition-all duration-300"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -62,7 +62,7 @@ const NavBar = () => {
               </motion.a>
               <motion.a
                 href="#solution"
-                className="px-4 py-2 font-semibold hover:text-instantGreen-1/80 hover:underline transition-all duration-300"
+                className="px-4 py-2 tracking-widest font-semibold hover:text-instantGreen-1/80 hover:underline transition-all duration-300"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -70,7 +70,7 @@ const NavBar = () => {
               </motion.a>
               <motion.a
                 href="#contact"
-                className="px-4 py-2 font-semibold hover:text-instantGreen-1/80 hover:underline transition-all duration-300"
+                className="px-4 py-2 tracking-widest font-semibold hover:text-instantGreen-1/80 hover:underline transition-all duration-300"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >

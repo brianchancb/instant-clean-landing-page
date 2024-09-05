@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen">
+    <main className="flex flex-col min-h-screen md:px-16 md:pl-20 md:py-8">
       <NavBar />
       <section className="flex-grow">
         {" "}
