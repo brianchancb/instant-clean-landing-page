@@ -120,7 +120,7 @@ const NavBar = () => {
           </nav>
         </motion.div>
       )}
-      <div className="px-4 py-4">
+      <div className="px-4 pt-4">
         <hr className="border-[1px] border-gray-300" />
       </div>
     </header>
