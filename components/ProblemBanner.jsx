@@ -29,7 +29,7 @@ const ProblemBanner = () => {
       id="problem"
       className="text-black md:flex md:justify-between overflow-x-clip"
     >
-      <div className="md:flex md:flex-col md:justify-center">
+      <div className="md:flex md:flex-col md:justify-center md:common-height">
         <div className="flex items-center justify-normal mb-2">
           <h2 className="text-3xl lg:text-4xl p-4 text-instantOrange-2 font-semibold whitespace-nowrap">
             Problem Statement
@@ -46,14 +46,14 @@ const ProblemBanner = () => {
             return (
               <div
                 key={index}
-                className="w-full p-4 rounded-3xl shadow-lg bg-white"
+                className="w-full p-1 rounded-3xl shadow-lg bg-white"
               >
                 <div className="flex items-center">
-                  <div className="bg-instantGreen-2 p-4 rounded-full self-start">
+                  <div className="bg-instantGreen-2 p-4 rounded-full flex items-center justify-center">
                     <Icon className="text-white" size={24} />
                   </div>
-                  <div className="px-6 py-4">
-                    <div className="font-bold text-instantGreen-2 text-xl mb-2">
+                  <div className="px-2 py-1">
+                    <div className="font-bold text-instantGreen-2 text-xl mb-1">
                       {problem.title}
                     </div>
                     <p className="text-gray-700 text-sm">{problem.body}</p>
@@ -64,12 +64,12 @@ const ProblemBanner = () => {
           })}
         </div>
       </div>
-      <div className="p-4 md:p-4 md:flex md:justify-end md:items-center relative">
+      <div className="p-4 md:p-4 md:flex md:justify-end md:items-center relative md:common-height">
         <div className="relative w-full h-full">
           <Image
             src={ProblemImage}
             alt="Problem"
-            className="object-contain w-full h-full"
+            className="object-fill w-full h-full"
           />
           {/* <div className="absolute bottom-0 right-0 w-6 h-6 bg-instantOrange-2 transform rotate-45 translate-x-1/2 -translate-y-1/2 rounded-lg"></div> */}
         </div>

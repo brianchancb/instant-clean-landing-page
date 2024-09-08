@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Mission from "@/public/Mission.png";
-import Logo from "@/public/Instant3-01.png";
+import Logo from "@/public/Instant3-01.svg";
 
 const OfferBanner = () => {
   return (

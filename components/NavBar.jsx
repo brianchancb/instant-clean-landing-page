@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Logo from "@/public/Instant3-01.png";
+import Logo from "@/public/Instant3-01.svg";
 import Image from "next/image";
 import { FiAlignJustify, FiX } from "react-icons/fi";
 import { motion } from "framer-motion";

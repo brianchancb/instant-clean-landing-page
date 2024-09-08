@@ -44,3 +44,8 @@ body {
     transform: translateX(0);
   }
 }
+
+.common-height {
+  height: 100%; /* Adjust this value as needed */
+  min-height: 300px; /* Example minimum height */
+}

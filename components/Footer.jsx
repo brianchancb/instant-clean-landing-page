@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaSquareInstagram } from "react-icons/fa6";
-import Logo from "@/public/Instant3-01.png";
+import Logo from "@/public/Instant3-01.svg";
 import ConcCirc from "@/public/mobile/Group-42.png";
 import ComingSoon from "@/public/mobile/Group-44.png";
 import People from "@/public/mobile/Group-46.png";
