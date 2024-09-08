@@ -27,7 +27,7 @@ const ProblemBanner = () => {
   return (
     <div
       id="problem"
-      className="text-black md:flex md:justify-between overflow-x-clip"
+      className="text-black md:flex md:justify-between md:pt-8 overflow-x-clip"
     >
       <div className="md:flex md:flex-col md:justify-center md:common-height">
         <div className="flex items-center justify-normal mb-2">
@@ -69,7 +69,7 @@ const ProblemBanner = () => {
           <Image
             src={ProblemImage}
             alt="Problem"
-            className="object-fill w-full h-full"
+            className="object-cover w-full h-full"
           />
           {/* <div className="absolute bottom-0 right-0 w-6 h-6 bg-instantOrange-2 transform rotate-45 translate-x-1/2 -translate-y-1/2 rounded-lg"></div> */}
         </div>
