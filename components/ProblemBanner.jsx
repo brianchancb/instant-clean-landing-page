@@ -29,7 +29,7 @@ const ProblemBanner = () => {
       id="problem"
       className="text-black md:flex md:justify-between md:pt-8 overflow-x-clip"
     >
-      <div className="md:flex md:flex-col md:justify-center md:common-height">
+      <div className="md:flex md:flex-col md:justify-center md:common-height md:flex-1">
         <div className="flex items-center justify-normal mb-2">
           <h2 className="text-3xl lg:text-4xl p-4 text-instantOrange-2 font-semibold whitespace-nowrap">
             Problem Statement
